@@ -6,4 +6,6 @@
 3. Customize your target index based on your design requirements to select the appropriate fields for retrieval, filtering, sorting, faceting, and searching.
 4. Using the Search Explorer interface, write query strings demonstrating at minimum the following from each index:
     * Search with correct fields returned from each dataset
+        * search=MS*&$select=source,role&$filter=role eq developer
+        * search=RESEARCH
     * Filtering, faceting, and sorting from each dataset (as appropriate)
